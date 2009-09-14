@@ -1,0 +1,32 @@
+<process reference="l">
+	<component ID="a"/>
+	<component ID="b"/>
+	<component ID="c"/>
+	<component ID="d"/>
+	<component ID="e"/>
+	<component ID="f"/>
+	<orconcurrency ID="g">
+		<member reference="e"/>
+		<member reference="f"/>
+	</orconcurrency>
+	<sequence ID="h">
+		<member reference="d"/>
+		<member reference="g"/>
+	</sequence>
+	<sequence ID="i">
+		<member reference="b"/>
+		<member reference="h"/>
+	</sequence>
+	<sequence ID="j">
+		<member reference="c"/>
+		<member reference="h"/>
+	</sequence>
+	<selection ID="k">
+		<member reference="i" probability="0.5"/>
+		<member reference="j" probability="0.5"/>
+	</selection>
+	<sequence ID="l">
+		<member reference="a"/>
+		<member reference="k"/>
+	</sequence>
+</process>

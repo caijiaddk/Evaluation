@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/jfreechart.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/jcommon-1.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/mysql-connector-java-3.1.8-bin.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/swt.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/org.eclipse.jface_3.3.1.M20070910-0800b.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/org.eclipse.draw2d_3.4.0.v20080529.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/jfreechart-swt-1.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/org.eclipse.zest.core_1.0.0.v20080115.jar" sourcepath="D:/eclipse/myplugins/GEF/eclipse/plugins/org.eclipse.zest.source_1.0.0.v20080115-5308xB5CE899O2A3213573/src/org.eclipse.zest.core_1.0.0.v20080115/src.zip"/>
+	<classpathentry kind="lib" path="D:/eclipse/workspace/Evaluation/lib/org.eclipse.zest.layouts_1.0.0.v20080226.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
